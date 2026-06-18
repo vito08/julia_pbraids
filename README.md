@@ -34,8 +34,8 @@ O fluxo principal do site leva a cliente para o WhatsApp, onde ela pode enviar r
 - `index.html`: estrutura da página e conteúdo comercial
 - `style.css`: identidade visual, responsividade e acabamento
 - `script.js`: animações, menu mobile e carrossel
-- `imgs/`: logos, imagens originais e versões otimizadas
-- `imgs/web/`: imagens leves usadas na página publicada
+- `static/images/`: logos, imagens otimizadas e ativos do site
+- `static/images/web/`: imagens leves usadas na página publicada
 - `vercel.json`: configuração simples para publicação na Vercel
 - `.vercelignore`: arquivos que não devem ir para o deploy
 
@@ -49,7 +49,7 @@ Este é um projeto estático. Para publicar:
 4. Não configure comando de build.
 5. Use `index.html` como entrada principal.
 
-As versões leves das imagens já estão em `imgs/web/` e são as usadas pelo site. Os arquivos originais pesados ficam fora do deploy por meio do `.vercelignore`.
+As imagens leves usadas pelo site estão em `static/images/web/`. Os ativos e logos ficam em `static/images/`.
 
 ## Tecnologias
 
